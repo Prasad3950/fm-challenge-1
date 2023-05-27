@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+
+  <link rel="stylesheet" href="./styles.css">
+
+  <!-- Font Styles -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Results summary component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <div class="frame">
+    <div class="result-summary-container">
+      <div class="container result-container">
+        <p class="result-container__heading">Your Result</p>
+        <div class="marks-container">
+          <h2>76</h2>
+          <p>of 100</p>
+        </div>
+        <h4>Great</h4>
+        <p class="marks-description">You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="container summary-container">
+        <h4>Summary</h4>
+
+        <div class="summary-metric summary-metric--red">
+          <div class="summary-metric-category-container summary-metric-category-container--red">
+            <object data="./assets/images/icon-reaction.svg" width="20" height="20"> </object>
+            <p class="summary-metric-category">Reaction</p>
+          </div>
+          <p class="summary-metric-score"><span class="score-highlight">80</span> / 100</p>
+        </div>
+
+        <div class="summary-metric summary-metric--yellow">
+          <div class="summary-metric-category-container summary-metric-category-container--yellow">
+            <object data="./assets/images/icon-memory.svg" width="20" height="20"> </object>
+            <p class="summary-metric-category">Memory</p>
+          </div>
+          <p class="summary-metric-score"><span class="score-highlight">92</span> / 100</p>
+        </div>
+
+        <div class="summary-metric summary-metric--teal">
+          <div class="summary-metric-category-container summary-metric-category-container--teal">
+            <object data="./assets/images/icon-verbal.svg" width="20" height="20"> </object>
+            <p class="summary-metric-category">Verbal</p>
+          </div>
+          <p class="summary-metric-score"><span class="score-highlight">61</span> / 100</p>
+        </div>
+
+        <div class="summary-metric summary-metric--blue">
+          <div class="summary-metric-category-container summary-metric-category-container--blue">
+            <object data="./assets/images/icon-visual.svg" width="20" height="20"> </object>
+            <p class="summary-metric-category">Visual</p>
+          </div>
+          <p class="summary-metric-score"><span class="score-highlight">72</span> / 100</p>
+        </div>
+
+        <button class="cta">Continue</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="https://www.linkedin.com/in/prasad1337/" target="_blank">Prasad More</a>.
+  </div>
+</body>
+
+</html>
